@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio</title>
+
+		<link rel="icon" type="image/png" href="./images/logo.png">
+		<!-- Bootstrap 5 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+	</head>
+	<body>
+		<!-- Start of Navbar -->
+		<nav id="nav-bar" class="navbar navbar-expand-lg navbar-light fixed-top">
+		  <div class="container-fluid py-2 px-5">
+		    <div id="logo" class="text-light">
+		    	<p>LOGO</p>
+			</div>
+		    <button id="hamburger" class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span  class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+		      <ul class="d-grid d-flex gap-2 navbar-nav ">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#landing">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#projects">Projects</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#tools">Tools</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#contact">Contact</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!-- End of Navbar -->
+		<!--Start of Landing Section -->
+		<section id="landing">
+			<div  class="container-fluid">
+				<div class="row mb-5">
+					<div id="intro" class="col-sm-9 pb-sm-5 my-5 mx-sm-auto pt-xs-5 my-md-4 text-dark text-center mt-0">
+						<div class="col-md-12 col-lg-12 col-xl-12  col-12" >
+							<img id="landing-image" class="img-fluid col-sm-12" src="./images/landing-image.png" >
+						</div>
+						<h3>Hi, I'm</h3>
+						<h1>Kim Harvey C. Esteron</h1>
+						<h3 class="pb-3">Full Stack Web Developer</h3>
+						<p class="pb-3 ">I am passionate about designing and building user-friendly websites and applications that create meaningful digital experiences. With a solid foundation in HTML, CSS, JavaScript, and frameworks like React, I am eager to apply my skills to develop responsive, interactive web solutions that meet the needs of users and clients alike. My goal is to collaborate with creative teams on innovative projects, continuously enhance my technical abilities, and stay updated with the latest industry trends to contribute effectively in a fast-paced, dynamic environment. I am committed to delivering high-quality work that not only meets project requirements but also engages and delights users.</p>
+						<a class="text-decoration-none" href="#contact">Contact me</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--End of Landing Section -->
+
+		<section id="projects">
+			<div  class="container-fluid py-5">
+				<div class="text-center py-5">
+					<h1 class="title">Projects</h1>
+				</div>
+				<div class="row text-center d-flex justify-content-around">
+					<div id="project-1" class="col-12 col-lg-3 mb-3 ">
+						<img src="./images/projects/account.png" class="card-img-top img-fluid ">
+						<div class="card-body">
+							<h5 class="card-title">Financial Dashboard</h5>
+							<p class="card-text">A comprehensive financial dashboard that aggregates data from various sources (e.g., bank accounts, credit cards, and accounting software). Users can view their financial health at a glance with key metrics like cash flow, expenses, income, and budget adherence, all presented through interactive charts and graphs.</p>
+						</div>
+					</div>
+					<div id="project-2" class="col-12 col-lg-3 mb-3">
+						<img src="./images/projects/calcu.png" class="card-img-top img-fluid ">
+						<div class="card-body">
+							<h5 class="card-title">Calculor</h5>
+							<p class="card-text">A simple web-based calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The user-friendly interface features buttons for numbers and operations, providing a straightforward experience for users needing quick calculations.</p>
+						</div>
+					</div>
+					<div id="project-3"class="col-12 col-lg-3 mb-3">
+						<img src="./images/projects/fit.png" class="card-img-top img-fluid">
+						<div class="card-body">
+							<h5 class="card-title">Nutrition Planner</h5>
+							<p class="card-text">A comprehensive tool for users to plan and track their daily meals and nutritional intake. Users can select foods from a database, input portion sizes, and receive detailed nutritional information, including calories, macronutrients, and vitamins.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="tools">
+			<div class="container-fluid">
+						<div id="tool-container" class="row text-center py-5 ">	
+							<div>
+								<h2>Core Tools</h2>
+								<div id="tool1">
+									<img class="col-sm-12" src="./images/tools/tools_Photoshop-Logo.png" class="img-fluid">
+									<img class="col-sm-12" src="./images/tools/tools_CorelDraw-Logo.png" class="img-fluid">
+									<img class="col-sm-12" src="./images/tools/tools_Canva-Logo.png" class="img-fluid">
+								</div>
+							</div>
+							<div id="tool2">
+								<h2>Other Tools</h2>
+								<div id="others">
+								<img class="col-sm-12" src="./images/tools/tools_Blender-Logo.png" class="img-fluid">
+								<img class="col-sm-12" src="./images/tools/tools_Lightroom-Logo.png" class="img-fluid">
+								<img class="col-sm-12" src="./images/tools/vsco-logo.png" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+		<section id="contact">
+			<div  class="container-fluid pt-5 ">
+				<form id="form-col" class="row mx-auto justify-content-center col-lg-4">
+				<div id="contact-container" class="col-12">
+					<h2 class="text-center mt-3">Contact Me</h2>
+					<div class="mb-3 col-12">
+						<label for="exampleFormControlInput1" class="form-label">Name</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name..." >
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Email</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email..." >
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Contact Number</label>
+						<input type="number" class="form-control" id="exampleFormControlInput1" placeholder="" >
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" cols="4" rows="5"></textarea>
+					</div>
+
+					<div>
+						<button id="btn-contact" type="submit" class="d-block mx-auto btn btn-dark mb-3" data-bs-toggle="modal" data-bs-target="#modalDiv" >Send Email</button>
+					</div>
+
+					<!-- MODAL -->
+					<div id="modalDiv" class="modal" tabindex="-1">
+						<div id="modal-text" class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title">Thank you</h5>
+								</div>
+								<div class="modal-body text-center">
+									<p>Message successfully sent.</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary d-block" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- MODAL -->
+				</div>
+				</form>
+			</div>
+		</section>
+
+		<!-- Bootstrap script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
